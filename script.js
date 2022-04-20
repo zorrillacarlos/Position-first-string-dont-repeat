@@ -12,7 +12,7 @@ function firstString() {
         return arraySplit.indexOf(element)
     })
 
-    const position = viewArray.find( element => viewArray.indexOf(element) === viewArray.lastIndexOf(element))
+    const position = viewArray.find(element => viewArray.indexOf(element) === viewArray.lastIndexOf(element))
 
     if (isNaN(position)){
         result.innerHTML = "-1"
